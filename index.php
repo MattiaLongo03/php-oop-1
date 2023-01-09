@@ -18,10 +18,19 @@ class Movie{
 }   
 
 $avengers = new Movie('Avengers');
+$avatar = new Movie('Avatar');
+
 $avengers->SetYear(2012);
 $avengers->SetLength('02:23:00');
 echo $avengers->titolo;
 echo $avengers->anno;
 echo $avengers->durata;
+
+$avatar->SetYear(2009);
+$avatar->SetLength('02:42:00');
+echo $avatar->titolo;
+echo $avatar->anno;
+echo $avatar->durata;
+
 
 ?>
